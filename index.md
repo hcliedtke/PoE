@@ -13,14 +13,14 @@ We will then working through the data obtained from an RNAseq experiment to lear
 ## Workshop Outline
 
 ### Introduction
-* _Lecture:_  [Transcriptomics of Plastic Phenotypes](./lectures/pigmentation_plasticity/index.html){:target="_blank"}.
+* _Lecture:_  [Transcriptomics of Plastic Phenotypes](./lectures/pigmentation_plasticity.pdf){:target="_blank"}.
 
 ---
 ### Pracrical sessions
 
 * _Practical:_ [01- Exploring Phenotypes with the Tidyverse](./exercises/01_tidyverse.html){:target="_blank"} [[Rmd](./exercises/01_tidyverse.Rmd){:target="_blank"}] [[answers](./exercises/answers/01_tidyverse.html){:target="_blank"}]
 
-* _Practical:_ [02 - Differential Gene Expression](./exercises/02_deg.html){:target="_blank"} [[Rmd](./exercises/02_deg.Rmd){:target="_blank"}] [[answers](./exercises/answers/02_deg.html){:target="_blank"}] 
+* _Practical:_ [02 - Differential Gene Expression](./exercises/02_deg.html){:target="_blank"} [[Rmd](./exercises/02_deg.Rmd){:target="_blank"}] [[answers](./exercises/answers/02_deg.html){:target="_blank"}]
 
 
 ---
