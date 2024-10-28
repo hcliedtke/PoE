@@ -1,5 +1,5 @@
 ---
-title: "Tidyverse"
+title: "Exploring Phenotypes with the Tidyverse"
 subtitle: | 
   PoE: Transcriptomics of Plastic Phenotypes
 author:
@@ -16,7 +16,9 @@ editor_options:
 knitr::opts_chunk$set(echo = TRUE,
                       eval = FALSE,
                       message=FALSE,
-                      error=FALSE)
+                      error=FALSE,
+                      fig.width=12,
+                      fig.height=8)
 knitr::opts_knit$set(root.dir = './')
 library(webexercises)
 ```
@@ -66,7 +68,7 @@ dat_spect
 When we call the object, we should notice that it has been stored as a `tibble`. This is essentially a dataframe, but it allows us to preview the first 10 rows, without calling the `head()` function and it lists all column names and data classes per column. *Note: tibbles generally do not have rownames*.
 
 
-> _Question:_ From this preview, can you tell what kind of information the table contains??   
+> _Question:_ From this preview, can you tell what kind of information the table contains?   
  
 `r hide("Show Answer")`
 
@@ -204,7 +206,7 @@ dat_exp
 
 This table provides extra information on what background each of our 8 tadpole was reared on. We can use the `specimen_id` column to match this information with the `sample` column in our dataset
 
-```{r}
+```{r eval=F}
 dat_mean %>%
   left_join(dat_exp)
 ```
